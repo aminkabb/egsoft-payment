@@ -54,7 +54,7 @@ app.post("/create-payment", async (req, res) => {
                 "first_name": "Student",
                 "street": "NA",
                 "building": "NA",
-                "phone_number": "+201000000000",
+                "phone_number": "+201289686163",
                 "shipping_method": "NA",
                 "postal_code": "NA",
                 "city": "Alexandria",
