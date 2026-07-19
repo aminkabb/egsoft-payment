@@ -9,7 +9,7 @@ app.use(cors({ origin: "*" }));
 app.use(express.json());
 
 // ⚠️ ضع الـ API Key الخاص بك هنا (بين علامتي التنصيص)
-const PAYMOB_API_KEY = "ضع_هنا_السلسلة_الطويلة_الخاصة_بالـ_API_KEY";
+const PAYMOB_API_KEY = "ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmpiR0Z6Y3lJNklrMWxjbU5vWVc1MElpd2ljSEp2Wm1sc1pWOXdheUk2TVRJd01EVXpNQ3dpYm1GdFpTSTZJakUzT0RRek9UTTBPVEl1TlRBeE1ERTFJbjAuWE5IWW9qWkZrMDdEbkNEZS1RbHcxSzFnN0lFdmYxZnlwVW9ZcmZ0WVpUTVZ3QW1JbGJ1M1pHcm93bG11SkZwUFdBRHBXa0RuMTZlekFMSjNPWVFEMEE=";
 const INTEGRATION_ID = "5783108"; // رقم المحافظ الإلكترونية الخاص بك
 
 // دالة إنشاء الدفع (API Endpoint)
@@ -83,3 +83,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+// السطر ده مهم جداً عشان Vercel يقدر يشغل الـ API بنجاح
+module.exports = app;
