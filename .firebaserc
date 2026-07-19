@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "myquizapp-f2686"
+  },
+  "targets": {
+    "myquizapp-f2686": {
+      "hosting": {
+        "mysite": [
+          "amintech-com"
+        ],
+        "egsoft_target": [
+          "egsoft-com"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
